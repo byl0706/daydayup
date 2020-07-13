@@ -15,6 +15,8 @@ public class Generic {
         GenericWriter.f2();
         System.out.println(GenericWriter.apples);
         System.out.println(GenericWriter.fruits);
+        List<?> list = new ArrayList<>();
+//        list.add("123"); // error
     }
 }
 
