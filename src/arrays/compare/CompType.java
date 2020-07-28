@@ -3,8 +3,7 @@ package arrays.compare;
 import arrays.Generated;
 import latenttype.adapter.Generator;
 
-import java.util.Arrays;
-import java.util.Random;
+import java.util.*;
 
 /**
  * @author baiyunlong
@@ -55,4 +54,5 @@ public class CompType implements Comparable<CompType> {
         System.out.println("after sort:");
 //        System.out.println(Arrays.toString(a));
     }
+
 }
